@@ -13,7 +13,7 @@ class Grid
     for i in 0..gridsize do
       row = []
       for j in 0..gridsize do
-        row.push(Tile.new(j, i))
+        row.push(Tile.new(i, j))
       end
       temp_tiles.push(row)
     end
