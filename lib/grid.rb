@@ -3,13 +3,20 @@ require_relative 'tile'
 class Grid
   attr_reader :tiles
   def initialize(gridsize)
-    @tiles = []
+    @tiles = generate_grid(gridsize)
+  end
+
+  private
+
+  def generate_grid(gridsize)
+    temp_tiles = []
     for i in 0..gridsize do
       row = []
       for j in 0..gridsize do
         row.push(Tile.new(j, i))
       end
-      @tiles.push(row)
+      temp_tiles.push(row)
     end
+    return temp_tiles
   end
 end
