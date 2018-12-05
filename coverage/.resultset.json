@@ -1,0 +1,86 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/felixdb/Projects/TechTests/game_of_life/spec/game_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/felixdb/Projects/TechTests/game_of_life/lib/game.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/felixdb/Projects/TechTests/game_of_life/lib/grid.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        10,
+        10,
+        100,
+        null,
+        10,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/felixdb/Projects/TechTests/game_of_life/lib/tile.rb": [
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/felixdb/Projects/TechTests/game_of_life/spec/grid_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/felixdb/Projects/TechTests/game_of_life/spec/tile_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1544012214
+  }
+}
