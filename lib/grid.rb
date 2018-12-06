@@ -9,14 +9,6 @@ class Grid
   private
 
   def generate_grid(gridsize)
-    temp_tiles = []
-    (0..gridsize).each do
-      row = []
-      (0..gridsize).each do
-        row.push(Tile.new)
-      end
-      temp_tiles.push(row)
-    end
-    temp_tiles
+    Array.new(gridsize) { Array.new(gridsize) { Tile.new } }
   end
 end

@@ -9,4 +9,8 @@ describe Grid do
   it 'a new grid contains a 2d array of tile' do
     expect(@grid.tiles[0][0]).to eq true
   end
+
+  describe 'input_starting_state' do
+    
+  end
 end

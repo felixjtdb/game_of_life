@@ -4,4 +4,8 @@ class Tile
   def initialize(alive = false)
     @alive = alive
   end
+
+  def birth
+    @alive = true
+  end
 end
