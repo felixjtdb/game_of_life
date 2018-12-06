@@ -7,7 +7,7 @@ class Game
     @grid = grid
   end
 
-  def set_tile_alive(coodinates)
+  def tile_alive(coodinates)
     @grid.tiles[coodinates[:x]][coodinates[:y]].birth
   end
 
@@ -18,6 +18,6 @@ class Game
 
   def input(nasty_xy = gets.chomp)
     coordinates = nasty_xy.split(',')
-    return { x: coordinates[0].to_i, y: coordinates[1].to_i }
+    { x: coordinates[0].to_i, y: coordinates[1].to_i }
   end
 end
